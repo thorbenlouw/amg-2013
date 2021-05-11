@@ -1,0 +1,6 @@
+*.o
+*.a
+.idea
+test/amg2013
+cmake-build*
+
