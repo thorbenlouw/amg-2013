@@ -33,7 +33,7 @@ hypre_BoomerAMGBuildMultipass( hypre_ParCSRMatrix  *A,
                    int                 *col_offd_S_to_A,
                    hypre_ParCSRMatrix **P_ptr )
 {
-    printf("%s I AM IN YOU %d %\n", __FILE__, __LINE__);
+    printf("%s I AM IN YOU %d \n", __FILE__, __LINE__);
 
     MPI_Comm	           comm = hypre_ParCSRMatrixComm(A);
    hypre_ParCSRCommPkg    *comm_pkg = hypre_ParCSRMatrixCommPkg(S);

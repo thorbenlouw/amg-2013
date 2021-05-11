@@ -44,4 +44,7 @@ set_target_properties(parcsr_ls PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(parcsr_ls PRIVATE .. ../utilities ../krylov
         ../seq_mv
         ../parcsr_mv
-        ../IJ_mv)
+        ../IJ_mv
+        OpenMP::OpenMP_INCLUDE)
+
+target_link_libraries(parcsr_ls PUBLIC OpenMP::OpenMP_CXX)

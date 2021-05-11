@@ -32,7 +32,7 @@ hypre_BoomerAMGBuildStdInterp(hypre_ParCSRMatrix *A, int *CF_marker,
 			      int sep_weight, int *col_offd_S_to_A, 
 			      hypre_ParCSRMatrix  **P_ptr)
 {
-    printf("%s I AM IN YOU %d %\n", __FILE__, __LINE__);
+    printf("%s I AM IN YOU %d \n", __FILE__, __LINE__);
 
     /* Communication Variables */
   MPI_Comm 	           comm = hypre_ParCSRMatrixComm(A);   
@@ -142,7 +142,7 @@ hypre_BoomerAMGBuildStdInterp(hypre_ParCSRMatrix *A, int *CF_marker,
   double           wall_2 = 0;
   double           wall_3 = 0;
 
-    printf("%s I AM IN YOU %d %\n", __FILE__, __LINE__);
+    printf("%s I AM IN YOU %d \n", __FILE__, __LINE__);
 
 
 
@@ -1110,7 +1110,7 @@ hypre_BoomerAMGBuildExtPIInterp(hypre_ParCSRMatrix *A, int *CF_marker,
 			      int *col_offd_S_to_A,
 			      hypre_ParCSRMatrix  **P_ptr)
 {
-    printf("%s I AM IN YOU %d %\n", __FILE__, __LINE__);
+    printf("%s I AM IN YOU %d \n", __FILE__, __LINE__);
 
     /* Communication Variables */
   MPI_Comm 	           comm = hypre_ParCSRMatrixComm(A);   
@@ -2042,7 +2042,7 @@ hypre_BoomerAMGBuildExtPICCInterp(hypre_ParCSRMatrix *A, int *CF_marker,
 			     int *col_offd_S_to_A,
 			     hypre_ParCSRMatrix  **P_ptr)
 {
-    printf("%s I AM IN YOU %d %\n", __FILE__, __LINE__);
+    printf("%s I AM IN YOU %d \n", __FILE__, __LINE__);
 
     /* Communication Variables */
   MPI_Comm 	           comm = hypre_ParCSRMatrixComm(A);   
@@ -3051,7 +3051,7 @@ hypre_BoomerAMGBuildFFInterp(hypre_ParCSRMatrix *A, int *CF_marker,
 			     int *col_offd_S_to_A,
 			     hypre_ParCSRMatrix  **P_ptr)
 {
-    printf("%s I AM IN YOU %d %\n", __FILE__, __LINE__);
+    printf("%s I AM IN YOU %d \n", __FILE__, __LINE__);
 
     /* Communication Variables */
   MPI_Comm 	           comm = hypre_ParCSRMatrixComm(A);   
@@ -4041,7 +4041,7 @@ hypre_BoomerAMGBuildFF1Interp(hypre_ParCSRMatrix *A, int *CF_marker,
 			     int *col_offd_S_to_A,
 			     hypre_ParCSRMatrix  **P_ptr)
 {
-    printf("%s I AM IN YOU %d %\n", __FILE__, __LINE__);
+    printf("%s I AM IN YOU %d \n", __FILE__, __LINE__);
 
     /* Communication Variables */
   MPI_Comm 	           comm = hypre_ParCSRMatrixComm(A);   
@@ -5041,7 +5041,7 @@ hypre_BoomerAMGBuildExtInterp(hypre_ParCSRMatrix *A, int *CF_marker,
 			      int *col_offd_S_to_A,
 			      hypre_ParCSRMatrix  **P_ptr)
 {
-    printf("%s I AM IN YOU %d %\n", __FILE__, __LINE__);
+    printf("%s I AM IN YOU %d \n", __FILE__, __LINE__);
 
     /* Communication Variables */
   MPI_Comm 	           comm = hypre_ParCSRMatrixComm(A);   

@@ -1583,8 +1583,6 @@ int
 main( int   argc,
       char *argv[] )
 {
-    printf("%s I AM IN YOU %d \n", __FILE__, __LINE__);
-
     char                 *infile;
    ProblemData           global_data;
    ProblemData           data;
